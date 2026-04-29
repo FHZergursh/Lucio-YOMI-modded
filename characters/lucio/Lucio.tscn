@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://characters/BaseChar.tscn" type="PackedScene" id=1]
 [ext_resource path="res://characters/BaseChar.gdshader" type="Shader" id=2]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/lucio_spriteframes.tres" type="SpriteFrames" id=3]
+[ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/idle.png" type="Texture" id=4]
 
 [sub_resource type="ShaderMaterial" id=1]
 resource_local_to_scene = true
@@ -20,6 +21,8 @@ shader_param/use_outline = false
 shader_param/outline_color = Color( 0, 0, 0, 1 )
 
 [node name="Lucio" instance=ExtResource( 1 )]
+character_portrait = ExtResource( 4 )
+character_portrait2 = ExtResource( 4 )
 
 [node name="Sprite" parent="Flip" index="0"]
 material = SubResource( 1 )
