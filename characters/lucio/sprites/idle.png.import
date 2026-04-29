@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/idle.png-8f2735fc7abf3e0d33972eab3cbe8785.stex"
+path="res://.import/idle.png-b7120e745d9353d070bd9cf99153682a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://-lucio/characters/lucio/sprites/idle.png"
-dest_files=[ "res://.import/idle.png-8f2735fc7abf3e0d33972eab3cbe8785.stex" ]
+source_file="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/idle.png"
+dest_files=[ "res://.import/idle.png-b7120e745d9353d070bd9cf99153682a.stex" ]
 
 [params]
 
