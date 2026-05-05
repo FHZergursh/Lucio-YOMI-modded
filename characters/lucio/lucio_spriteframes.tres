@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=24 format=2]
+[gd_resource type="SpriteFrames" load_steps=25 format=2]
 
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/forward_dash.png" type="Texture" id=1]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/burst.png" type="Texture" id=2]
@@ -6,12 +6,13 @@
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/instant_cancel.png" type="Texture" id=4]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/jump.png" type="Texture" id=5]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/hurt_grounded_high.png" type="Texture" id=6]
+[ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/temp_dodge4.png" type="Texture" id=7]
+[ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/temp_dodge1.png" type="Texture" id=8]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/landing.png" type="Texture" id=9]
-[ext_resource path="res://characters/stickman/sprites/stickman8.png" type="Texture" id=15]
+[ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/temp_dodge2.png" type="Texture" id=10]
+[ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/temp_dodge3.png" type="Texture" id=11]
 [ext_resource path="res://characters/stickman/sprites/stickman5.png" type="Texture" id=16]
 [ext_resource path="res://characters/stickman/sprites/stickman17.png" type="Texture" id=18]
-[ext_resource path="res://characters/stickman/sprites/stickman6.png" type="Texture" id=20]
-[ext_resource path="res://characters/stickman/sprites/stickman7.png" type="Texture" id=21]
 [ext_resource path="res://characters/stickman/sprites/stickman30.png" type="Texture" id=24]
 [ext_resource path="res://characters/stickman/sprites/stickman57.png" type="Texture" id=28]
 [ext_resource path="res://characters/stickman/sprites/stickman37.png" type="Texture" id=40]
@@ -121,12 +122,12 @@ animations = [ {
 "name": "ParryLow",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 15 ), ExtResource( 21 ), ExtResource( 20 ), ExtResource( 16 ) ],
+"frames": [ ExtResource( 8 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 7 ) ],
 "loop": true,
 "name": "RollBackward",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 16 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 15 ) ],
+"frames": [ ExtResource( 8 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 7 ) ],
 "loop": true,
 "name": "RollForward",
 "speed": 5.0
