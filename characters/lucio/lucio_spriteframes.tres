@@ -12,6 +12,7 @@
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/temp_dodge2.png" type="Texture" id=10]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/temp_dodge3.png" type="Texture" id=11]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/high_block.png" type="Texture" id=12]
+[ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/low_block.png" type="Texture" id=13]
 [ext_resource path="res://characters/stickman/sprites/stickman5.png" type="Texture" id=16]
 [ext_resource path="res://characters/stickman/sprites/stickman17.png" type="Texture" id=18]
 [ext_resource path="res://characters/stickman/sprites/stickman30.png" type="Texture" id=24]
@@ -21,7 +22,6 @@
 [ext_resource path="res://characters/stickman/sprites/stickman61.png" type="Texture" id=45]
 [ext_resource path="res://characters/stickman/sprites/stickman60.png" type="Texture" id=48]
 [ext_resource path="res://characters/stickman/sprites/stickman58.png" type="Texture" id=54]
-[ext_resource path="res://characters/stickman/sprites/stickman33.png" type="Texture" id=56]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/idle.png" type="Texture" id=74]
 [ext_resource path="res://characters/stickman/sprites/wall_slam.png" type="Texture" id=79]
 
@@ -117,7 +117,7 @@ animations = [ {
 "name": "ParryHigh",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 56 ) ],
+"frames": [ ExtResource( 13 ) ],
 "loop": true,
 "name": "ParryLow",
 "speed": 5.0
