@@ -13,9 +13,9 @@
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/temp_dodge3.png" type="Texture" id=11]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/high_block.png" type="Texture" id=12]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/low_block.png" type="Texture" id=13]
+[ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/knockdown.png" type="Texture" id=14]
 [ext_resource path="res://characters/stickman/sprites/stickman5.png" type="Texture" id=16]
 [ext_resource path="res://characters/stickman/sprites/stickman17.png" type="Texture" id=18]
-[ext_resource path="res://characters/stickman/sprites/stickman30.png" type="Texture" id=24]
 [ext_resource path="res://characters/stickman/sprites/stickman57.png" type="Texture" id=28]
 [ext_resource path="res://characters/stickman/sprites/stickman37.png" type="Texture" id=40]
 [ext_resource path="res://characters/stickman/sprites/stickman59.png" type="Texture" id=44]
@@ -102,7 +102,7 @@ animations = [ {
 "name": "JumpBack",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 24 ) ],
+"frames": [ ExtResource( 14 ) ],
 "loop": true,
 "name": "Knockdown",
 "speed": 5.0
