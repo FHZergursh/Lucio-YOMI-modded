@@ -14,6 +14,7 @@
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/high_block.png" type="Texture" id=12]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/low_block.png" type="Texture" id=13]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/knockdown.png" type="Texture" id=14]
+[ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/wall_slam.png" type="Texture" id=15]
 [ext_resource path="res://characters/stickman/sprites/stickman5.png" type="Texture" id=16]
 [ext_resource path="res://characters/stickman/sprites/stickman17.png" type="Texture" id=18]
 [ext_resource path="res://characters/stickman/sprites/stickman57.png" type="Texture" id=28]
@@ -23,7 +24,6 @@
 [ext_resource path="res://characters/stickman/sprites/stickman60.png" type="Texture" id=48]
 [ext_resource path="res://characters/stickman/sprites/stickman58.png" type="Texture" id=54]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/idle.png" type="Texture" id=74]
-[ext_resource path="res://characters/stickman/sprites/wall_slam.png" type="Texture" id=79]
 
 [resource]
 animations = [ {
@@ -142,7 +142,7 @@ animations = [ {
 "name": "Wait",
 "speed": 30.0
 }, {
-"frames": [ ExtResource( 79 ) ],
+"frames": [ ExtResource( 15 ) ],
 "loop": true,
 "name": "WallSlam",
 "speed": 5.0
