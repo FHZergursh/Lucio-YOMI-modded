@@ -16,7 +16,7 @@
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/knockdown.png" type="Texture" id=14]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/wall_slam.png" type="Texture" id=15]
 [ext_resource path="res://characters/stickman/sprites/stickman5.png" type="Texture" id=16]
-[ext_resource path="res://characters/stickman/sprites/stickman17.png" type="Texture" id=18]
+[ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/hurt_aerial.png" type="Texture" id=17]
 [ext_resource path="res://characters/stickman/sprites/stickman57.png" type="Texture" id=28]
 [ext_resource path="res://characters/stickman/sprites/stickman37.png" type="Texture" id=40]
 [ext_resource path="res://characters/stickman/sprites/stickman59.png" type="Texture" id=44]
@@ -67,7 +67,7 @@ animations = [ {
 "name": "Grabbed",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 18 ) ],
+"frames": [ ExtResource( 17 ) ],
 "loop": true,
 "name": "HurtAerial",
 "speed": 5.0
