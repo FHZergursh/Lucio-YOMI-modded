@@ -18,11 +18,11 @@
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/grabbed.png" type="Texture" id=16]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/hurt_aerial.png" type="Texture" id=17]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/getup.png" type="Texture" id=18]
-[ext_resource path="res://characters/stickman/sprites/stickman57.png" type="Texture" id=28]
+[ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/grab1.png" type="Texture" id=19]
+[ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/grab2.png" type="Texture" id=20]
 [ext_resource path="res://characters/stickman/sprites/stickman59.png" type="Texture" id=44]
 [ext_resource path="res://characters/stickman/sprites/stickman61.png" type="Texture" id=45]
 [ext_resource path="res://characters/stickman/sprites/stickman60.png" type="Texture" id=48]
-[ext_resource path="res://characters/stickman/sprites/stickman58.png" type="Texture" id=54]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/sprites/idle.png" type="Texture" id=74]
 
 [resource]
@@ -57,7 +57,7 @@ animations = [ {
 "name": "Getup",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 28 ), ExtResource( 28 ), ExtResource( 28 ), ExtResource( 28 ), ExtResource( 54 ), ExtResource( 54 ), ExtResource( 54 ), ExtResource( 54 ), ExtResource( 54 ), ExtResource( 54 ), ExtResource( 54 ), ExtResource( 54 ), ExtResource( 54 ) ],
+"frames": [ ExtResource( 19 ), ExtResource( 19 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ) ],
 "loop": true,
 "name": "Grab",
 "speed": 60.0
