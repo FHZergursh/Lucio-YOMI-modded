@@ -1,8 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://characters/BaseChar.tscn" type="PackedScene" id=1]
 [ext_resource path="res://characters/BaseChar.gdshader" type="Shader" id=2]
 [ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/lucio_spriteframes.tres" type="SpriteFrames" id=3]
+[ext_resource path="res://mechanics/Hitbox.gd" type="Script" id=7]
+[ext_resource path="res://@lucio/Lucio-YOMI-modded/characters/lucio/states/empty_state.gd" type="Script" id=8]
 
 [sub_resource type="StreamTexture" id=2]
 load_path = "res://.import/idle.png-b7120e745d9353d070bd9cf99153682a.stex"
@@ -29,3 +31,44 @@ character_portrait2 = SubResource( 2 )
 [node name="Sprite" parent="Flip" index="0"]
 material = SubResource( 1 )
 frames = ExtResource( 3 )
+animation = "FastDraw"
+frame = 3
+
+[node name="FastDraw" type="Node2D" parent="StateMachine" index="57"]
+script = ExtResource( 8 )
+__meta__ = {
+"_editor_description_": ""
+}
+apply_forces = true
+apply_fric = true
+apply_grav = true
+sprite_animation = "FastDraw"
+anim_length = 11
+refresh_loop = false
+enter_force_dir_x = "2"
+enter_force_speed = "3"
+title = "Fast Draw"
+type = 1
+busy_interrupt_type = 2
+self_interruptable = false
+interrupt_from_string = "Grounded
+"
+interrupt_into_string = "Grounded"
+hit_cancel_into_string = "GroundedAttack
+GroundedSpecial"
+allowed_stances_string = "All"
+
+[node name="Hitbox" type="Node2D" parent="StateMachine/FastDraw" index="0"]
+z_index = 1000
+script = ExtResource( 7 )
+x = 21
+y = -28
+width = 10
+height = 18
+damage = 50
+hitstun_ticks = 25
+victim_hitlag = 5
+dir_y = "-0.1"
+knockback = "5"
+start_tick = 4
+active_ticks = 2
